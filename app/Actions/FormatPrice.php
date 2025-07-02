@@ -10,10 +10,10 @@ class FormatPrice implements IFormatPrice
     {
         return match ( $currency )
         {
-            'USD'   => '$' . number_format ( $price, 2, '.', '' ),
-            'EUR'   => '€' . number_format ( $price, 2, '.', '' ),
-            'RUB'   => number_format ( $price, 2, '.', '' ) . ' ₽',
-            default => number_format ( $price, 2, '.', '' ),
+            'USD'   => '$' . number_format ( $price, 2, '.', ' ' ),
+            'EUR'   => '€' . number_format ( $price, 2, '.', ' ' ),
+            'RUB'   => number_format ( $price, 2, '.', ' ' ) . ' ₽',
+            default => number_format ( $price, 2, '.', ' ' ),
         };
     }
 }
