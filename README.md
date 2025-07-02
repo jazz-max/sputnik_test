@@ -17,6 +17,6 @@
 
 ### Запуск
 
-- зайтина на http://127.0.0.1:8000/api/prices?currency=EUR
+- зайти на на http://127.0.0.1:8000/api/prices?currency=EUR
 
 валюта RUB, USD, EUR
