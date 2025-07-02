@@ -11,6 +11,7 @@
 ### Установка 
 
 - Клонировать
+- запустить `composer update`
 - запустить миграции `php artisan migrate`
 - поднять ларавель `php artisan serve`
 - запустить сидер для продуктов `php artisan db:seed`
