@@ -14,6 +14,7 @@
 - запустить миграции `php artisan migrate`
 - поднять ларавель `php artisan serve`
 - запустить сидер для продуктов `php artisan db:seed`
+- выполнить `php artisan optimize`
 
 ### Запуск
 
